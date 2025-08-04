@@ -1,4 +1,63 @@
+@font-face {
+    font-family: norse;
+    src: url(../fonts/Norse-Bold.otf);
+}
+:root{
+    height: 100%;
+    font-family: norse,sans-serif;
+}
 body{
-    background-color: black;
+    background-color: #0a0b0b;
     color:aliceblue; 
+    background-image: url(../images/jaguarStareDown_Geranimo.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.booking{
+    
+    /* align-self: center; */
+    /* justify-self: flex-end; */
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.book-button{
+    background-color: #0a0b0b;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: norse;
+    height:max-content;
+    width: max-content;
+    margin:100px ;
+    justify-self: flex-end;
+    padding: 20px;
+    
+    
+}
+.button-container{
+    margin-left: 550px;
+    /* align-self: flex-end; */
+    justify-self: flex-start;
+}
+
+.form-container{
+    justify-self: center;
 }

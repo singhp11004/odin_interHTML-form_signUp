@@ -8,8 +8,42 @@
 
 </head>
 <body>
-    <h1>Hello work
-    </h1>
-    
+    <div class="header">
+
+        <img src="./images/logo.jpg" alt="logo" height="100px" width="100px">
+        <h1>Welcome to the jungle</h1>
+
+    </div>
+    <div class="booking">
+        <div class="form-container">
+            <form action="/submit" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+        
+                <label for="gender">Gender</label>
+
+                <input type="radio" id="male" name="gender">
+                <label for="gender">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="gender">Female</label>
+        
+                <br>
+                <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            </form>
+        
+        </div>
+
+        <div class="button-container">
+
+            <button class="book-button"><p>Book Your Jungle Safari Now</p></button>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p style="color:aliceblue"> &copy Wild Safari 2025</p>
+    </div>
+
 </body>
 </html>
